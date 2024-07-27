@@ -30,6 +30,9 @@ struct RootView: View {
           NavigationLink("XiconView") {
             XiconView()
           }
+          NavigationLink("GradientBorderCardView") {
+              GradientBorderCardView()
+          }
           NavigationLink("ScrollableGradientNavigationStack") {
             ScrollableGradientNavigationStack(
               heightPercentage: 0.4, maxHeight: 200, minHeight: 0,
