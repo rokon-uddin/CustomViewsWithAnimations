@@ -16,9 +16,12 @@
 		2F02C7382C50E07900342A6C /* DashLineProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F02C7372C50E07900342A6C /* DashLineProgress.swift */; };
 		2F02C73A2C50FCD400342A6C /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F02C7392C50FCD400342A6C /* CustomToggle.swift */; };
 		2F02C73C2C51231000342A6C /* ScrollableGradientNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F02C73B2C51231000342A6C /* ScrollableGradientNavigationStack.swift */; };
+		2F3838E32C9599F100BD2868 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3838E22C9599F100BD2868 /* StackView.swift */; };
 		2F6126BD2C53CCFE00364866 /* RepeatBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6126BC2C53CCFE00364866 /* RepeatBehavior.swift */; };
 		2F6126BF2C53DA0800364866 /* PayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6126BE2C53DA0800364866 /* PayButton.swift */; };
 		2F6126C12C554B8800364866 /* GradientBorderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6126C02C554B8800364866 /* GradientBorderCardView.swift */; };
+		2FB6DCEC2C5F214700BF8D7B /* MaskingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB6DCEB2C5F214700BF8D7B /* MaskingView.swift */; };
+		2FE256F02C6264C80016BCD8 /* DynamicMultiStepProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE256EF2C6264C80016BCD8 /* DynamicMultiStepProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +35,12 @@
 		2F02C7372C50E07900342A6C /* DashLineProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashLineProgress.swift; sourceTree = "<group>"; };
 		2F02C7392C50FCD400342A6C /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
 		2F02C73B2C51231000342A6C /* ScrollableGradientNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableGradientNavigationStack.swift; sourceTree = "<group>"; };
+		2F3838E22C9599F100BD2868 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		2F6126BC2C53CCFE00364866 /* RepeatBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatBehavior.swift; sourceTree = "<group>"; };
 		2F6126BE2C53DA0800364866 /* PayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayButton.swift; sourceTree = "<group>"; };
 		2F6126C02C554B8800364866 /* GradientBorderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBorderCardView.swift; sourceTree = "<group>"; };
+		2FB6DCEB2C5F214700BF8D7B /* MaskingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskingView.swift; sourceTree = "<group>"; };
+		2FE256EF2C6264C80016BCD8 /* DynamicMultiStepProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicMultiStepProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +83,11 @@
 				2F02C7272C50DF0100342A6C /* RootView.swift */,
 				2F02C73B2C51231000342A6C /* ScrollableGradientNavigationStack.swift */,
 				2F02C7352C50DFBC00342A6C /* XiconView.swift */,
+				2F3838E22C9599F100BD2868 /* StackView.swift */,
 				2F02C7292C50DF0200342A6C /* Assets.xcassets */,
 				2F02C72B2C50DF0200342A6C /* Preview Content */,
+				2FB6DCEB2C5F214700BF8D7B /* MaskingView.swift */,
+				2FE256EF2C6264C80016BCD8 /* DynamicMultiStepProgressBar.swift */,
 			);
 			path = CustomViewsWithAnimations;
 			sourceTree = "<group>";
@@ -163,11 +172,14 @@
 			files = (
 				2F6126BD2C53CCFE00364866 /* RepeatBehavior.swift in Sources */,
 				2F02C73A2C50FCD400342A6C /* CustomToggle.swift in Sources */,
+				2FE256F02C6264C80016BCD8 /* DynamicMultiStepProgressBar.swift in Sources */,
 				2F02C7282C50DF0100342A6C /* RootView.swift in Sources */,
 				2F02C7382C50E07900342A6C /* DashLineProgress.swift in Sources */,
 				2F02C73C2C51231000342A6C /* ScrollableGradientNavigationStack.swift in Sources */,
+				2FB6DCEC2C5F214700BF8D7B /* MaskingView.swift in Sources */,
 				2F02C7262C50DF0100342A6C /* CustomViewsWithAnimationsApp.swift in Sources */,
 				2F02C7342C50DF0E00342A6C /* CireclesView.swift in Sources */,
+				2F3838E32C9599F100BD2868 /* StackView.swift in Sources */,
 				2F02C7362C50DFBC00342A6C /* XiconView.swift in Sources */,
 				2F6126BF2C53DA0800364866 /* PayButton.swift in Sources */,
 				2F6126C12C554B8800364866 /* GradientBorderCardView.swift in Sources */,

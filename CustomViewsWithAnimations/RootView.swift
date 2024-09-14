@@ -12,6 +12,9 @@ struct RootView: View {
     NavigationStack {
       Form {
         Section {
+          NavigationLink("StackView") {
+            StackView()
+          }
           NavigationLink("CirclesView") {
             CireclesView()
           }
@@ -31,7 +34,7 @@ struct RootView: View {
             XiconView()
           }
           NavigationLink("GradientBorderCardView") {
-              GradientBorderCardView()
+            GradientBorderCardView()
           }
           NavigationLink("ScrollableGradientNavigationStack") {
             ScrollableGradientNavigationStack(
@@ -41,6 +44,9 @@ struct RootView: View {
               content: { ForEach(0..<120) { value in Text("Test \(value)") } }
             )
             .preferredColorScheme(.dark)
+          }
+          NavigationLink("MaskingView") {
+            MaskingView()
           }
         }
       }
